@@ -1,11 +1,13 @@
 ---
-title: Post Title
+title: Welcome to Jonathan's Blog.
 date: 2026-02-14
-author: Your Name
+author: Zhenghao Gu
 summary: Short description
 tags:
   - tag1
   - tag2
   - tag3
 ---
-Write your content here.
+# Heading
+
+Hello world.
