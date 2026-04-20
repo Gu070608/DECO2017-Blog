@@ -1,5 +1,5 @@
 ---
-title: Welcome to Jonathan's Blog.
+title: New Start
 date: 2026-02-14
 author: Zhenghao Gu
 summary: Short description
