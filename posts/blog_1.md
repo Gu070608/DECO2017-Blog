@@ -1,5 +1,5 @@
 ---
-title: Finally decide to plan after few weeks...~~(Sorry sir)~~
+title: Finally decide to plan after few weeks...
 date: 2026-02-14
 author: Zhenghao Gu
 summary: HAHAHAHAHAHA
