@@ -1,12 +1,12 @@
 ---
 title: Finally decide to plan after few weeks...
-date: 2026-02-14
+date: 2026-03-14
 author: Zhenghao Gu
 summary: HAHAHAHAHAHA
 tags:
+  - First step
   - Planning
-  - tag2
-  - tag3
+  - Week...5
 ---
 ## What are these?
 
