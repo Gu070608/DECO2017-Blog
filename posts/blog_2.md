@@ -2,7 +2,7 @@
 title: How to make our first page
 date: 2026-04-11
 author: Zhenghao Gu
-summary: This week, I moved from planning to HTML by using a Figma prototype to test the user flow before building my first three page drafts.
+summary: I moved from planning to HTML by using a Figma prototype to test the user flow before building my first three page drafts.
 tags:
   - Doing than saying
   - Prototype
