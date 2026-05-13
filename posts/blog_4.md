@@ -1,5 +1,5 @@
 ---
-title: "DDD", DND?
+title: "DND"?
 date: 2026-05-02
 author: Zhenghao Gu
 summary: I struggled with moving from static HTML to data thinking, using DDDs and ERDs to understand how elements should connect behind the interface.
