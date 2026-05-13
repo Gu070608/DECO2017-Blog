@@ -1,12 +1,12 @@
 ---
 title: Finally decide to plan after few weeks...
-date: 2026-03-14
+date: 2026-04-04
 author: Zhenghao Gu
 summary: I thought I was going to fail, but somehow my friends and an indie music website project kept me alive.
 tags:
   - First step
   - Planning
-  - Week...5
+  - Week...6
 ---
 ## What are these?
 
@@ -26,7 +26,7 @@ My friends' support mattered more than I probably knew at the time. In fact, it 
 
 Fortunately, I have used GitHub and other related tools before, so setting up the environment went smoothly. I took a quick look at the code structure, and thankfully, it’s a bit simpler than I expected. The existing login page, for instance, seemed manageable as well. This made me realise that instead of trying to build every possible feature, we should focus on a small set of clear functional requirements.
 
-On the this week’s (Week 7) tutorial, my friend aka. my teammate and I finalized our topic. He’s a big fan of ~~underground~~ indie music and has a lot of experience with things like mixing or composing. I have some knowledge too, but only lightly worn, only the surface of it. Still, that felt right somehow. So, we decided to build a website centered on indie music thing, a topic we’re both genuinely interested in. It feels like the first real step toward making something alive.
+On the this week’s (Week 6) tutorial, my friend aka. my teammate and I finalized our topic. He’s a big fan of ~~underground~~ indie music and has a lot of experience with things like mixing or composing. I have some knowledge too, but only lightly worn, only the surface of it. Still, that felt right somehow. So, we decided to build a website centered on indie music thing, a topic we’re both genuinely interested in. It feels like the first real step toward making something alive.
 
 We learned how to build a site like this in our DECO1015 course last semester, though this time it will be more comprehensive and interactive. Things will be much more complicated when performing operations with the server, rather than just filling in some necessary content. I remember the last time I built a micro-website with five pages, but my tutor didn’t give me a very high score, and I’ve been ~~holding a grudge~~ about it ever since. It was most likely because the hamburger menu I created didn’t work—you couldn’t click it to navigate to other pages—though I do admit that was a bug. As for my friend, he often uses ChatGPT to “help” him with his assignment (the course allows the use of AI). Anyway, we’re ***confident*** we can do it.
 
