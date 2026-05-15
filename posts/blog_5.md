@@ -21,10 +21,10 @@ We also started looking at APIs and external data. In the tutorial, the example 
 
 However, I also realised that adding an API is not just adding a cool feature. It creates extra problems: what if the request fails, what if the data is missing, what if the API has limits, or what if the feature becomes too complicated for our current prototype? So the main trade-off this week was between making the website more interactive and keeping it manageable. I wanted the site to feel alive, but I also did not want to accidentally create a monster.
 
-We also began adding small interactions. Nothing too dramatic yet, but enough to make the website feel less static. For example, users should be able to move from the homepage into a Sound Room, read or interact with comments, and understand that the page is responding to them. This made me realise that interaction is not only about animation or fancy effects. It is about giving users feedback and making the system feel understandable.
+We also began adding interactions. For example, users should be able to move from the homepage into a Sound Room, read or interact with comments, and understand that the page is responding to them. This made me realise that interaction is not only about animation or fancy effects. It is about giving users feedback and making the system feel understandable.
 
 By the end of the week, the project felt much closer to a working prototype. The CSS made it more visually coherent, the database gave the content a clearer structure, the API work opened up new possibilities, and the interactions made the website feel less frozen. There is still a lot to fix, of course.
 
-There is always a lot to fix.
+There is ***always*** a lot to fix.
 
 I’ve got a bunch of deadlines coming up, and I feel like I’m going to be ***"dead"***.
