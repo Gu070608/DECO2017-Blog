@@ -2,11 +2,11 @@
 title: External Data, Internal Panic
 date: 2026-05-09
 author: Zhenghao Gu
-summary: I explored how APIs could connect our project to external data, while also realising that every API-powered feature brings extra complexity, failure cases, and security concerns.
+summary: I polished project's CSS, linked database, and explored how APIs could connect our project to external data.
 tags:
-  - APIs
+  - CSS
   - Database
-  - Error Handling
+  - APIs
 ---
 
 At this point, our website is almost ***finished***.
@@ -15,13 +15,13 @@ This week, we refined the CSS and database, and experimented with integrating so
 
 After finishing all the basic contents, I moved on to improving the CSS. This part was actually quite satisfying, because the website immediately looked more like a real product instead of a skeleton wearing no clothes. I focused on making the homepage, Sound Room cards, and detail page more consistent, especially spacing, layout, and visual hierarchy. The goal was not to make everything perfect, but to make the pages feel like they belonged to the same system.
 
-At the same time, we also worked on the database. This directly Inherited from the DDD and ERD work from last week. Before, the Sound Room cards were basically fixed content written into HTML. Now, I started thinking about them as pieces of data that could eventually come from the database: title, description, creator, tags, comments, and other details. This made the project feel much more real, but also more stressful. Static HTML is obedient. Database logic is not always obedient.
+At the same time, we worked on the database. This directly Inherited from the DDD and ERD work from last week. Before, the Sound Room cards were basically fixed content written into HTML. Now, I started thinking about them as pieces of data that could eventually come from the database: title, description, creator, tags, comments, and other details. This made the project feel much more real, but also more stressful. Static HTML is obedient. Database logic is not always obedient.
 
 We also started looking at APIs and external data. In the tutorial, the example was weather and geocoding, which is not directly related to our indie music website, but the logic was useful. 
 
 However, I realised that choosing an API is not as simple as finding one that “does the function”. There are many APIs that look similar on the surface, but they are not exactly the same in practice. Some provide richer data but have stricter limits, some are faster but return less useful information, and some require API keys or more complicated setup, which are significant trade-offs.
 
-After all, the important idea remains that a website can ask another system for information, receive structured data, and then display it to users. For our project, this made me think about possible future features, such as music metadata, artist information, album covers, or event-related data.
+After all, the important idea remains that a website can ask another system for information, receive structured data, and then display it to users. For our project, this made me think about possible future features, such as recommendation based on the location, artist information, album covers, or events' live data.
 
 We also began adding interactions. For example, users should be able to move from the homepage into a Sound Room, read or like a comment, and understand that the page is responding to them. This made me realise that interaction is not only about animation or fancy effects. It is about giving users feedback and making the system feel understandable.
 
