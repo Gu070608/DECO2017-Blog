@@ -1,36 +1,30 @@
 ---
-title: DDD, DND?
+title: External Data, Internal Panic
 date: 2026-05-09
 author: Zhenghao Gu
-summary: I struggled with moving from static HTML to data thinking, using DDDs and ERDs to understand how elements should connect behind the interface.
+summary: I explored how APIs could connect our project to external data, while also realising that every API-powered feature brings extra complexity, failure cases, and security concerns.
 tags:
-  - Annotated Wireflow
-  - DDD & ERD
-  - Clearer HTML
+  - APIs
+  - Database
+  - Error Handling
 ---
 
-I think this week's material is giving me the most trouble.
+At this point, our website is almost ***finished***.
 
-This week's content focuses more on building the website's structure rather than the part that users see.
+This week, we refined the CSS and database, and experimented with integrating some APIs.
 
-After working on the basic HTML last week, I realised that the pages could not just exist as static layouts forever. The Sound Room cards, user profile, comments, and discussion areas all look simple on the screen, but they actually need data behind them.
+After finishing all the basic contents, I moved on to improving the CSS. This part was actually quite satisfying, because the website immediately looked more like a real product instead of a skeleton wearing no clothes. I focused on making the homepage, Sound Room cards, and detail page more consistent, especially spacing, layout, and visual hierarchy. The goal was not to make everything perfect, but to make the pages feel like they belonged to the same system.
 
-***A card is not just a card.***
+At the same time, we also worked on the database. This directly Inherited from the DDD and ERD work from last week. Before, the Sound Room cards were basically fixed content written into HTML. Now, I started thinking about them as pieces of data that could eventually come from the database: title, description, creator, tags, comments, and other details. This made the project feel much more real, but also more stressful. Static HTML is obedient. Database logic is not always obedient.
 
-It needs a title, description, image, creator, tags, created date, and probably a link to its detail page. Very suddenly, every small box on the page became ***suspicious***.
+We also started looking at APIs and external data. In the tutorial, the example was weather and geocoding, which is not directly related to our indie music website, but the logic was useful. The important idea was that a web app can ask another system for information, receive structured data, and then display it to users. For our project, this made me think about possible future features, such as music metadata, artist information, album covers, or event-related data.
 
-During our tutorial this week, we annotated our wireflow, marking the visible content, user inputs, and elements that would need data behind them. Then, our group started building the DDD and ERD for the project.
+However, I also realised that adding an API is not just adding a cool feature. It creates extra problems: what if the request fails, what if the data is missing, what if the API has limits, or what if the feature becomes too complicated for our current prototype? So the main trade-off this week was between making the website more interactive and keeping it manageable. I wanted the site to feel alive, but I also did not want to accidentally create a monster.
 
-At first, I thought this would be a very technical step, almost like something that only belongs to CS people. But when we started writing the DDD, it felt more like translating the website into a clearer language. For each important thing on the page, we had to ask: what is this thing, what information does it need, and what would a real example look like?
+We also began adding small interactions. Nothing too dramatic yet, but enough to make the website feel less static. For example, users should be able to move from the homepage into a Sound Room, read or interact with comments, and understand that the page is responding to them. This made me realise that interaction is not only about animation or fancy effects. It is about giving users feedback and making the system feel understandable.
 
-For instance, for our features in each Sound Room, the main entities became clearer. We need users, Sound Rooms, comments, and tags or categories. The Sound Room is the centre of the experience, but it cannot exist alone. It is created by a user, displayed on the homepage, opened on the detail page, and connected to comments or bullet comments. This helped me understand that the homepage and detail page are not separate pieces. They are different views of the same data.
+By the end of the week, the project felt much closer to a working prototype. The CSS made it more visually coherent, the database gave the content a clearer structure, the API work opened up new possibilities, and the interactions made the website feel less frozen. There is still a lot to fix, of course.
 
-The DDD helped me improve the HTML as well. Some parts of my previous HTML were still based on what looked nice in the wireframe, not what the system actually needed. For example, the repeated Sound Room cards made me think about the HTML as a reusable pattern, obviously. Each card should follow the same structure: a title, description, creator information, tags, and a link to the room detail page. This made the HTML easier to connect with the DDD later, because each visible element could be mapped back to a specific attribute instead of being treated as random content.
+There is always a lot to fix.
 
-Then we moved from DDD to ERD, which was honestly a bit more ***confusing***. Writing attributes is one thing; deciding relationships is another thing. For example, one user can create many Sound Rooms, and one Sound Room can have many comments. That part makes sense. But tags are more annoying, because one Sound Room can have multiple tags, and one tag can belong to multiple rooms. This made me realise why some relationships need extra structure instead of just putting everything into one messy list.
-
-The main trade-off was between keeping the data model simple and making it flexible enough for the website later. If we make the structure too simple, it may be easier to build now, but harder to expand. If we make it too complex, we might create a system that is technically impressive but painful to actually finish. So for now, we tried to focus on the core functions first: users can browse Sound Rooms, enter a room, listen, and interact through comments.
-
-By the end of the week, I felt like my HTML had a clearer and more completed structure. It was no longer just “finish three pages.” It became more like: build pages that can eventually connect to real data.
-
-Which is ***huge*** progress.
+I’ve got a bunch of deadlines coming up, and I feel like I’m going to be ***"dead"***.
