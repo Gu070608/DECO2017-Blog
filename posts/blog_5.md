@@ -17,15 +17,17 @@ After finishing all the basic contents, I moved on to improving the CSS. This pa
 
 At the same time, we worked on the database. This directly Inherited from the DDD and ERD work from last week. Before, the Sound Room cards were basically fixed content written into HTML. Now, I started thinking about them as pieces of data that could eventually come from the database: title, description, creator, tags, comments, and other details. This made the project feel much more real, but also more stressful. Static HTML is obedient. Database logic is not always obedient.
 
-We also started looking at APIs and external data. In the tutorial, the example was weather and geocoding, which is not directly related to our indie music website, but the logic was useful. 
+We also started looking at APIs. In the tutorial, the example was weather and geocoding, which is not directly related to our indie music website, but the logic was useful. 
 
-However, I realised that choosing an API is not as simple as finding one that “does the function”. There are many APIs that look similar on the surface, but they are not exactly the same in practice. Some provide richer data but have stricter limits, some are faster but return less useful information, and some require API keys or more complicated setup, which are significant trade-offs.
+Choosing an API is not as simple as finding one that “does the function”. There are many APIs that look similar on the surface, but they are not exactly the same in practice. Some provide richer data but have stricter limits, some are faster but return less useful information, and some require API keys or more complicated setup, which are significant trade-offs.
 
 After all, the important idea remains that a website can ask another system for information, receive structured data, and then display it to users. For our project, this made me think about possible future features, such as recommendation based on the location, artist information, album covers, or events' live data.
 
-We also began adding interactions. For example, users should be able to move from the homepage into a Sound Room, read or like a comment, and understand that the page is responding to them. This made me realise that interaction is not only about animation or fancy effects. It is about giving users feedback and making the system feel understandable.
+We also began considering and adding interactions. For example, users should be able to move from the homepage into a Sound Room, read or like a comment, and understand that the page is responding to them. I originally had quite a few creative ideas for animations that I thought were “really smart,” but after trying them out, I realized that many were actually beyond our capabilities. In the end, I decided that simple, smooth animations could achieve a similar effect.
 
-By the end of the week, the project felt much closer to a working prototype. The CSS made it more visually coherent, the database gave the content a clearer structure, the API work opened up new possibilities, and the interactions made the website feel less frozen. There is still a lot to fix, of course.
+***What matters isn’t the animation itself, but how users perceive the system’s feedback.***
+
+By the end of the week, the project felt much closer to a working website. The CSS made it more visually coherent, the database gave the content a clearer structure, the API work opened up new possibilities, and the interactions made the website feel more powerful. There is still a lot to fix, of course.
 
 There is ***always*** a lot to fix.
 
