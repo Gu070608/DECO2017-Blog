@@ -37,10 +37,10 @@ Colour contrast was another repeated accessibility issue. Many small metadata el
 
 There are still some UX issues I would improve. The Browse cards contain a lot of information, including image, title, description, tags, statistics, metadata, and an enter link. Although I adjusted card height and text clamping, the cards can still feel dense. In a future version, I would simplify the Browse cards and leave more detailed information for the Room Detail page. I would also test keyboard navigation and screen reader behaviour more thoroughly. WAVE was useful for identifying issues, but it cannot replace testing how real users move through the site.
 
-![Wave Evaluation of Homepage](../assets/Wave-Evaluation-of-Homepage.png)
+![Wave Evaluation of Homepage](/assets/Wave-Evaluation-of-Homepage.png)
 *Figure 1. Wave Evaluation of Homepage.*
 
-![AIM accessibility scores](../assets/Accessibility-Audit-Results.png)
+![AIM accessibility scores](/assets/Accessibility-Audit-Results.png)
 *Figure 2. AIM accessibility scores across the main pages of Shen_ren.indie.music. All pages scored above 9.0.*
 
 ## Critical Reflection and Improvement Planning
