@@ -67,3 +67,11 @@ img {
   height: auto;
   display: block;
 }
+
+p em {
+  display: block;
+  text-align: center;
+  font-size: 0.85rem;
+  color: light-dark(#555555, #bbbbbb);
+  margin-bottom: 2rem;
+}
