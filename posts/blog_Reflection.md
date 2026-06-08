@@ -37,6 +37,12 @@ Colour contrast was another repeated accessibility issue. Many small metadata el
 
 There are still some UX issues I would improve. The Browse cards contain a lot of information, including image, title, description, tags, statistics, metadata, and an enter link. Although I adjusted card height and text clamping, the cards can still feel dense. In a future version, I would simplify the Browse cards and leave more detailed information for the Room Detail page. I would also test keyboard navigation and screen reader behaviour more thoroughly. WAVE was useful for identifying issues, but it cannot replace testing how real users move through the site.
 
+![AIM accessibility scores across key pages](/assets/Wave%20Evaluation%20of%20Homepage.png)
+*Figure 1. Wave Evaluation of Homepage.*
+
+![AIM accessibility scores across key pages](/assets/Accessibility%20Audit%20Results.png)
+*Figure 2. AIM accessibility scores across the main pages of Shen_ren.indie.music. All pages scored above 9.0.*
+
 ## Critical Reflection and Improvement Planning
 
 One major reflection from this project is that the scope was larger than it seemed during planning. “An indie music community platform” sounds clear as a concept, but once I started building, every visual feature required supporting logic. The carousel required database queries, JavaScript state, image paths, and navigation links. The Browse page required a tag system, query parameters, SQL conditions, and selected filter states. The comment function required route handling, form submission, user identity, posts, and comment relationships. This taught me that web features should be scoped according to the technical systems they require, not only according to how simple they look in a mock-up.
